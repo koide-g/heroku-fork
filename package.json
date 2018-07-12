@@ -13,6 +13,7 @@
   "keywords": [
     "heroku-plugin"
   ],
+  "files": ["index.js", "commands/*"],
   "author": "Jeff Dickey (@dickeyxxx)",
   "license": "ISC",
   "bugs": {
@@ -20,6 +21,8 @@
   },
   "homepage": "https://github.com/heroku/heroku-fork",
   "dependencies": {
+    "@oclif/config": "^1.6.33",
+    "@oclif/plugin-legacy": "^1.0.18",
     "co": "4.x",
     "heroku-cli-addons": "^1.2.26",
     "heroku-cli-util": "^6.2.0",
